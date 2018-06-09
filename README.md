@@ -20,16 +20,16 @@ This is a base button.
 
 First clone and `npm install` this repo.
 
-Then start the parcel dev-server with `npm start`. Edit files in `src` folder and watch the result at [localhost:1234](localhost:1234).
+Then start the parcel dev-server with `npm start`. Edit files in `src` folder and watch the result at [localhost:1234](http://localhost:1234).
 
 Add an element with an id like so:
 `<button id="example-button" class="base-button">Hit me</button>`
 
 We have a `tools/generate-images.js` node.js script which:
 
-- finds every named (with id) element in `src/index.html`
-- takes a screenshot of the element
-- saves it as `images/{id-of-element}.png`
+-   finds every named (with id) element in `src/index.html`
+-   takes a screenshot of the element
+-   saves it as `images/{id-of-element}.png`
 
 Run `node tools/generate-images.js`.
 
