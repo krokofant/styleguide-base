@@ -1,0 +1,13 @@
+@import "tachyons-sass/tachyons.scss";
+
+.base-button {
+    @extend .pa2,
+        .br2,
+        .bw0,
+        .ttu,
+        .bg-light-blue,
+        .helvetica,
+        .f6,
+        .b,
+        .tracked;
+}
