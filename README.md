@@ -31,7 +31,7 @@ We have a `tools/generate-images.js` node.js script which:
 -   takes a screenshot of the element
 -   saves it as `images/{id-of-element}.png`
 
-Run `node tools/generate-images.js`.
+Run `npm run generateImages` to start the script.
 
 Now you can add your component example with code and visuals:
 
