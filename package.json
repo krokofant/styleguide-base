@@ -4,19 +4,22 @@
     "description": "A base for styleguides with code and graphics",
     "main": "index.js",
     "scripts": {
-        "start": "parcel src/index.html",
+        "start": "parcel src/*.html",
         "generateImages": "node tools/generate-images.js"
     },
     "keywords": [],
     "author": "krokofant (https://github.com/krokofant/)",
     "license": "MIT",
     "devDependencies": {
+        "chokidar": "2.0.4",
         "node-sass": "4.9.0",
         "parcel-bundler": "1.8.1",
+        "parcel-plugin-markdown": "0.3.1",
         "puppeteer": "1.5.0",
         "rimraf": "2.6.2"
     },
     "dependencies": {
+        "showdown": "1.8.6",
         "tachyons-sass": "4.9.3"
     }
 }
